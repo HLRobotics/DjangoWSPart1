@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static  "css/styleMy.css" %}"/>
     <title>First APP in Django</title>
 </head>
 <body>
@@ -13,6 +14,9 @@
     <input type="button" name="chumma" value="OK"/>
     {{insert_me}}
     {{Thenga}}
+    <img src="{% static "images/APJ.jpeg" %}" alt="cannot load"/>
+
+    
     <table>
         <tr>
             <td>
